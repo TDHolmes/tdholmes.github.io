@@ -1,33 +1,34 @@
-# Holmes Engineering
-## Projects by Tyler Holmes
-Brief intro
 
-## Projects
+# Projects
 
-### [Binary Clock][Binary Clock Link]
+## [Binary Clock][Binary Clock Link]
 
 ![alt text][Binary Clock picture]
 More documentation and a high level overview [here][Binary Clock Link].
 
-### [Harma][Harma Link]
+## [Harma][Harma Link]
 
 More info [here][Harma Link].
 
-### [Pensel][Pensel Link]
+## [Pensel][Pensel Link]
 
 More info [here][Pensel Link].
 
-### [Ladder 42][Ladder 42 Link]
+## [Ladder 42][Ladder 42 Link]
 
 More info [here][Ladder 42 Link].
 
-### [Senior Design][Senior Design Link]
+## [Senior Design][Senior Design Link]
 
 More info [here][Senior Design Link].
 
-### [Ice Dancer][Ice Dancer Link]
+## [Ice Dancer][Ice Dancer Link]
 
 More info [here][Ice Dancer Link].
+
+# About Tyler
+
+Tyler Holmes is currently a Firmware QA Engineer at Apple.
 
 [//]: # (Binary clock related assets and links:)
 [Binary Clock picture]: https://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_rev1.JPG "Binary Clock v1 displaying 20:31:08 (8:31 PM)"
