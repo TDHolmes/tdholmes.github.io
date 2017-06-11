@@ -29,9 +29,9 @@ More info [here][Senior Design Link].
 More info [here][Ice Dancer Link].
 
 
-[Binary Clock Link]: binaryclock.holmesengineering.com
-[Harma Link]: www.google.com
-[Pensel Link]: www.google.com
-[Ladder 42 Link]: www.google.com
-[Senior Design Link]: www.google.com
-[Ice Dancer Link]: www.google.com
+[Binary Clock Link]: http://binaryclock.holmesengineering.com "Binary Clock Project Page"
+[Harma Link]: http://www.google.com "Harma Project Page"
+[Pensel Link]: http://www.google.com "Pensel Project Page"
+[Ladder 42 Link]: http://www.google.com "Ladder 42 Project Page"
+[Senior Design Link]: http://www.google.com "Senior Design Project Page"
+[Ice Dancer Link]: http://www.google.com "Ice Dancer Project Page"
