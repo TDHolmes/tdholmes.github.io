@@ -4,28 +4,28 @@ Brief intro
 
 ## Projects
 
-### Binary Clock
+### [Binary Clock][Binary Clock Link]
 
 ![alt text][Binary Clock picture]
 More documentation and a high level overview [here][Binary Clock Link].
 
-### Harma
+### [Harma][Harma Link]
 
 More info [here][Harma Link].
 
-### Pensel
+### [Pensel][Pensel Link]
 
 More info [here][Pensel Link].
 
-### Ladder 42
+### [Ladder 42][Ladder 42 Link]
 
 More info [here][Ladder 42 Link].
 
-### Senior Design
+### [Senior Design][Senior Design Link]
 
 More info [here][Senior Design Link].
 
-### Ice Dancer
+### [Ice Dancer][Ice Dancer Link]
 
 More info [here][Ice Dancer Link].
 
