@@ -22,7 +22,7 @@ More info [here][Harma Link].
 
 ## [Pensel][Pensel Link]
 
-The Pensel (brush or pencil in Swedish) project is the sub-component of the Harma
+The Pensel (meaning brush or pencil in Swedish) project is the sub-component of the Harma
 project that gets the user's input. The user holds the Pensel like it was the soldering
 iron and the robotic arm mimics their movement on a finer scale, as well as filtering
 out jitter.
@@ -48,9 +48,9 @@ Tyler Holmes is currently a Firmware QA Engineer at Apple.
 
 [//]: # (Binary clock related assets and links:)
 [Binary Clock picture]: https://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_rev1.JPG "Binary Clock v1 displaying 20:31:08 (8:31 PM)"
-[Binary Clock Link]: http://binaryclock.holmesengineering.com "Binary Clock Project Page"
+[Binary Clock Link]: http://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
-[Harma Link]: http://www.google.com "Harma Project Page"
+[Harma Link]: http://www.holmesengineering.com/Harma "Harma Project Page"
 [Robot Assisted Surgery]: https://en.wikipedia.org/wiki/Robot-assisted_surgery
 
 [Pensel Link]: http://www.google.com "Pensel Project Page"
