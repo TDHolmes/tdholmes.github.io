@@ -47,6 +47,11 @@
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <script>
+        if (window.location.host.indexOf('holmesengineering.com') > -1 && window.location.protocol == "https:"){
+            window.location.protocol = "http";
+        }
+    </script>
 
 
   {% if site.google_analytics %}
