@@ -64,7 +64,24 @@ driver, and part of the wiimote code.
 
 ## Senior Design
 
+![alt text][Senior Design Assembled]
 
+My Senior Design project was an [EHF][EHF link] 60 GHz radar sensor for detecting distance.
+The basic idea is that the radio chip, a custom ASIC, would output a ramp in frequency from
+60 to 67 GHz over a few milliseconds, hits the target object, and comes back. By the time
+the radar wave returns, it is slightly slower in frequency than what is currently being outputted.
+The ASIC then subtracts these two signals in the frequency domain and outputs the result, now in
+the kHz range, to be used by the application processor.
+
+![alt text][Senior Design Signal Final]
+
+We used an Altera FPGA to do the DSP. I was responsible for the DSP (written in Verilog) to
+detect the distance of objects, which was proportional to the output signal from the radar ASIC.
+I also wrote a UART driver. We were mostly successful. The fundamental frequency seen in the above plot is
+correlated to the distance of the object, but the large regular spikes were due to an error somewhere
+in the signal path that we could not identify.
+
+![alt text][Senior Design UART]
 
 ## Ice Dancer
 
@@ -87,23 +104,48 @@ had to end the project there without resolving this as Senior Design was taking 
 too much of my time.
 
 
+## PyBot
+
+The PiBot project is a collaboration between myself and Broderick Carlin. The goal of the
+PiBot project is to enable the maker community with an easy to use, but powerful robot
+platform. It does this by off-loading the motor driver logic as well as the distance
+and velocity calculation to our co-processor, allowing the users processor to handle
+more important tasks.
+
+This project uses the NXP MKL03Z32VFK4, a M0+ processor. I wrote the firmware while
+Broderick is responsible for the board design. The initial firmware is complete, but
+the board design is still in progress. More information as well as the firmware, unit
+tests, and board files for this project can be found here on the GitHub page.
+
+
 [Broderick Link]: https://www.linkedin.com/in/broderick-carlin-90707879/
 [trinity robot link]: http://www.trinityrobotcontest.org/
 [pixy link]: http://charmedlabs.com/default/pixy-cmucam5/
 [dirty PCB link]: http://dirtypcbs.com/store/pcbs
+[EHF link]: https://en.wikipedia.org/wiki/Extremely_high_frequency
+
 
 [Binary Clock picture]: http://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_rev1.JPG "Binary Clock v1 displaying 20:31:08 (8:31 PM)"
 [Binary Clock Link]: http://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
+
 [Harma Link]: http://www.holmesengineering.com/Harma "Harma Project Page"
 [Robot Assisted Surgery]: http://en.wikipedia.org/wiki/Robot-assisted_surgery
 
+
 [Pensel Link]: http://www.holmesengineering.com/Harma/Pensel "Pensel Project Page"
+
 
 [Ladder 42 Link]: https://github.com/beeedy/candleBot "Ladder 42 Project Page"
 [Ladder 42 complete]: https://github.com/beeedy/candleBot/blob/master/Images/Pics%20of%20finished%20bot/IMG_0164.png?raw=true "Final design"
 [Ladder 42 block diagram]: https://raw.githubusercontent.com/beeedy/candleBot/master/Images/Communication%20Lines.png "Ladder 42 Block Diagram"
 [Ladder 42 Edge Detection]: https://raw.githubusercontent.com/beeedy/candleBot/master/Images/PixyEdgeDetectProofOfConcept.png "Edge Detection of a coffee cup, stapler, and box"
+
+
+[Senior Design UART]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/seniordesign_UART.jpg "UART driver bringup"
+[Senior Design Assembled]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/seniordesign_finaldesign.jpg "Final design with Altera dev-board for signal processing"
+[Senior Design Signal Final]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/seniordesign_final_output_crop.jpg "Signal Output with unknown noise source"
+
 
 [Ice Dancer PCB pic]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/icedancer_PCB.jpg "Ice Dancer Arduino shield"
 [Ice Dancer Test pic]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/icedancer_test_cropped.jpg "A test of the Ice Dancer prototype"
