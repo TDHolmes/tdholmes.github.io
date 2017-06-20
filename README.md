@@ -19,7 +19,12 @@ The Harma (meaning Mimic in Swedish) project is a solution to my shaky, over caf
 It is a robot-assisted soldering tool, much like [robot-assisted surgery][Robot Assisted Surgery],
 but much less expensive (hopefully).
 
-More info [here][Harma Link].
+The idea is to have two distinct sub systems working together: One or two [Pensels][Pensel Link] to
+detect orientation and movement of the users hands and an accompanying one or two robotic
+arms (cool Swedish name to be determined) mimicking the user's input as well as performing
+special actions on a button press, such as feeding solder or wire.
+
+More info about the project can be found [here][Harma Link].
 
 
 ## [Pensel][Pensel Link]
@@ -31,8 +36,9 @@ out jitter.
 
 ![alt text][Pensel Top]
 
-This is currently the main part I am working on for the overall Harma project.
-More info can be found [here][Pensel Link].
+The above is my first cut at the PCB. So far all sensors are working and I am getting
+accelerometer and magnetometer data out of the orientation IC. This is currently the main
+part I am working on for the overall Harma project. More info can be found [here][Pensel Link].
 
 
 ## [Ladder 42][Ladder 42 Link]
