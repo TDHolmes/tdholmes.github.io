@@ -12,7 +12,8 @@ University of St. Thomas in Minnesota and currently lives in the Silicon Valley 
 ### Contact
 
 Email: <tyler@holmesengineering.com>
-LinkedIn: <linkedin.com/in/tylerdholmes>
+
+LinkedIn: <http://www.linkedin.com/in/tylerdholmes>
 
 [Tyler Picture]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/tyler_courtneywedding.png "Tyler does not have many pictures of himself..."
 
