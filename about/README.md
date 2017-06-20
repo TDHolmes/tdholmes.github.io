@@ -1,7 +1,7 @@
 
 # About Tyler
 
-[!alt text][Tyler Picture]
+![alt text][Tyler Picture]
 
 Tyler Holmes is currently a Firmware QA Engineer at Apple. He has a passion for
 embedded systems development and has skills in C, Python, KiCad, Verilog, and more.
