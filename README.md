@@ -32,15 +32,31 @@ More info can be found [here][Pensel Link].
 
 ## [Ladder 42][Ladder 42 Link]
 
-More info [here][Ladder 42 Link].
+![alt text][Ladder 42 complete]
 
-## [Senior Design][Senior Design Link]
+## [Senior Design]
 
-More info [here][Senior Design Link].
 
-## [Ice Dancer][Ice Dancer Link]
 
-More info [here][Ice Dancer Link].
+## Ice Dancer
+
+The Ice Dancer was a project in collaboration with Dr. Thomas Shepard and
+Dr. Thomas Rodengen to measure ice thickness formation during the winter on
+Minnesota lakes.
+
+![alt text][Ice Dancer PCB pic]
+
+The Ice Dancer works by freezing a PVC pipe into the ice with a stopper on the bottom
+and a metal ring around the outside. The Ice Dancer then lowers a magnet down to the bottom
+on a string, attaches to the metal ring, and pulls it up. The Ice Dancer measures the distance
+via an encoder on the motor and determines if it is pulling the metal ring by measuring the
+amount of current the motor is drawing.
+
+![alt text][Ice Dancer Test pic]
+
+Everything for this project worked, except for the SD card reader. I unfortunately
+had to end the project there without resolving this as Senior Design was taking up
+too much of my time.
 
 # About Tyler
 
@@ -53,7 +69,12 @@ Tyler Holmes is currently a Firmware QA Engineer at Apple.
 [Harma Link]: http://www.holmesengineering.com/Harma "Harma Project Page"
 [Robot Assisted Surgery]: http://en.wikipedia.org/wiki/Robot-assisted_surgery
 
-[Pensel Link]: http://www.google.com "Pensel Project Page"
-[Ladder 42 Link]: http://www.google.com "Ladder 42 Project Page"
-[Senior Design Link]: http://www.google.com "Senior Design Project Page"
-[Ice Dancer Link]: http://www.google.com "Ice Dancer Project Page"
+[Pensel Link]: http://www.holmesengineering.com/Harma/Pensel "Pensel Project Page"
+
+[Ladder 42 Link]: https://github.com/beeedy/candleBot "Ladder 42 Project Page"
+[Ladder 42 complete]: https://github.com/beeedy/candleBot/blob/master/Images/Pics%20of%20finished%20bot/IMG_0164.png?raw=true "Final design"
+[Ladder 42 block diagram]: https://raw.githubusercontent.com/beeedy/candleBot/master/Images/Communication%20Lines.png "Ladder 42 Block Diagram"
+[Ladder 42 Edge Detection]: https://raw.githubusercontent.com/beeedy/candleBot/master/Images/PixyEdgeDetectProofOfConcept.png "Edge Detection of a coffee cup, stapler, and box"
+
+[Ice Dancer PCB pic]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/pictures/icedancer_PCB.jpg "Ice Dancer Arduino shield"
+[Ice Dancer Test pic]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/pictures/icedancer_test_cropped.jpg "A test of the Ice Dancer prototype"
