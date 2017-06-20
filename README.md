@@ -12,6 +12,7 @@ good, I made my own.
 More information, documentation, and a high level overview can be found
 [here][Binary Clock Link].
 
+
 ## [Harma][Harma Link]
 
 The Harma (meaning Mimic in Swedish) project is a solution to my shaky, over caffeinated hands.
@@ -20,6 +21,7 @@ but much less expensive (hopefully).
 
 More info [here][Harma Link].
 
+
 ## [Pensel][Pensel Link]
 
 The Pensel (meaning brush or pencil in Swedish) project is the sub-component of the Harma
@@ -27,8 +29,11 @@ project that gets the user's input. The user holds the Pensel like it was the so
 iron and the robotic arm mimics their movement on a finer scale, as well as filtering
 out jitter.
 
+![alt text][Pensel Top]
+
 This is currently the main part I am working on for the overall Harma project.
 More info can be found [here][Pensel Link].
+
 
 ## [Ladder 42][Ladder 42 Link]
 
@@ -62,6 +67,7 @@ MCU finalized before the competition. This project was for a semester long cours
 just ran out of time. I also was responsible for the code interfacing with the color sensor, the I2C
 driver, and part of the wiimote code.
 
+
 ## Senior Design
 
 ![alt text][Senior Design Assembled]
@@ -82,6 +88,7 @@ correlated to the distance of the object, but the large regular spikes were due 
 in the signal path that we could not identify.
 
 ![alt text][Senior Design UART]
+
 
 ## Ice Dancer
 
@@ -104,18 +111,20 @@ had to end the project there without resolving this as Senior Design was taking 
 too much of my time.
 
 
-## PyBot
+## [PiBot][PiBot Project Link]
 
-The PiBot project is a collaboration between myself and Broderick Carlin. The goal of the
-PiBot project is to enable the maker community with an easy to use, but powerful robot
-platform. It does this by off-loading the motor driver logic as well as the distance
-and velocity calculation to our co-processor, allowing the users processor to handle
+The PiBot project is a collaboration between myself and [Broderick Carlin][Broderick Link].
+The goal of the PiBot project is to enable the maker community with an easy to use, but
+powerful robot platform. It does this by off-loading the motor driver logic as well as the
+distance and velocity calculation to our co-processor, allowing the users processor to handle
 more important tasks.
 
 This project uses the NXP MKL03Z32VFK4, a M0+ processor. I wrote the firmware while
 Broderick is responsible for the board design. The initial firmware is complete, but
 the board design is still in progress. More information as well as the firmware, unit
-tests, and board files for this project can be found here on the GitHub page.
+tests, and board files for this project can be found [here][PiBot Project Link] on the GitHub page.
+
+![alt text][PiBot Current Board Layout]
 
 
 [Broderick Link]: https://www.linkedin.com/in/broderick-carlin-90707879/
@@ -134,7 +143,8 @@ tests, and board files for this project can be found here on the GitHub page.
 
 
 [Pensel Link]: http://www.holmesengineering.com/Harma/Pensel "Pensel Project Page"
-
+[Pensel Bottom]: https://raw.githubusercontent.com/TDHolmes/Harma/master/Pensel/documentation/pictures/Pensel_1_0_bottom.jpg "The bottom of the 1.0 Pensel PCB"
+[Pensel Top]: https://raw.githubusercontent.com/TDHolmes/Harma/master/Pensel/documentation/pictures/Pensel_1_0_top.jpg "The top of the 1.0 Pensel PCB"
 
 [Ladder 42 Link]: https://github.com/beeedy/candleBot "Ladder 42 Project Page"
 [Ladder 42 complete]: https://github.com/beeedy/candleBot/blob/master/Images/Pics%20of%20finished%20bot/IMG_0164.png?raw=true "Final design"
@@ -149,3 +159,7 @@ tests, and board files for this project can be found here on the GitHub page.
 
 [Ice Dancer PCB pic]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/icedancer_PCB.jpg "Ice Dancer Arduino shield"
 [Ice Dancer Test pic]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/icedancer_test_cropped.jpg "A test of the Ice Dancer prototype"
+
+
+[PiBot Project Link]: https://github.com/TDHolmes/PiBot "PiBot Project Page"
+[PiBot Current Board Layout]: https://raw.githubusercontent.com/TDHolmes/PiBot/master/documentation/pictures/PiBot_layout_proto.png "Current board layout"
