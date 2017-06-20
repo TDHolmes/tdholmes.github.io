@@ -34,7 +34,35 @@ More info can be found [here][Pensel Link].
 
 ![alt text][Ladder 42 complete]
 
-## [Senior Design]
+Ladder 42 (AKA candleBot) was a project for my Microprocessors II lab by myself
+and [Broderick Carlin][Broderick Link]. The project is based on the
+[Trinity College Firefighting Robot Competition][http://www.trinityrobotcontest.org/].
+The goal is to have the robot find the fire (a candle) and extinguish it as fast as possible.
+
+We went about this by getting a [Pixy][http://charmedlabs.com/default/pixy-cmucam5/] to do image processing,
+two old Wiimotes to sense IR, two compass MEMS ICs, a color sensor to go on the bottom to detect the
+white circle that is under the candle, and a cell module to text the "fire department" to put out the candle.
+A bit overboard, but we wanted to go all out on this project. We designed
+all of the PCBs ourselves and got them fabricated by [Dirty PCB][http://dirtypcbs.com/store/pcbs].
+
+![alt text][Ladder 42 block diagram]
+
+The compasses were dead on arrival because we selected too small of packages and did the reflow
+ourselves. The wiimotes were very easy to interface with (there are many guides online to do this) so
+detecting the candle's position was easy. However, the image processing we needed (edge detection) was
+not supported out of the box by the pixy. One of my main parts of the project was to try to
+get edge detection working on the pixy camera.
+
+![alt text][Ladder 42 Edge Detection]
+
+Stark corners were easy, but getting rid of spurious noise and repairing torn edges was very
+difficult. The Pixy also had a fish eye lens on it, distorting straight lines. Edge detection
+was working for the most part, but I failed to get a communication scheme with the main
+MCU finalized before the competition. This project was for a semester long course, so we
+just ran out of time. I also was responsible for the code interfacing with the color sensor, the I2C
+driver, and part of the wiimote code.
+
+## Senior Design
 
 
 
@@ -62,7 +90,7 @@ too much of my time.
 
 Tyler Holmes is currently a Firmware QA Engineer at Apple.
 
-[//]: # (Binary clock related assets and links:)
+[Broderick Link]: https://www.linkedin.com/in/broderick-carlin-90707879/
 [Binary Clock picture]: http://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_rev1.JPG "Binary Clock v1 displaying 20:31:08 (8:31 PM)"
 [Binary Clock Link]: http://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
