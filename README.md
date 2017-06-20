@@ -36,14 +36,14 @@ More info can be found [here][Pensel Link].
 
 Ladder 42 (AKA candleBot) was a project for my Microprocessors II lab by myself
 and [Broderick Carlin][Broderick Link]. The project is based on the
-[Trinity College Firefighting Robot Competition][http://www.trinityrobotcontest.org/].
+[Trinity College Firefighting Robot Competition][trinity robot link].
 The goal is to have the robot find the fire (a candle) and extinguish it as fast as possible.
 
-We went about this by getting a [Pixy][http://charmedlabs.com/default/pixy-cmucam5/] to do image processing,
+We went about this by getting a [Pixy][pixy link] to do image processing,
 two old Wiimotes to sense IR, two compass MEMS ICs, a color sensor to go on the bottom to detect the
 white circle that is under the candle, and a cell module to text the "fire department" to put out the candle.
 A bit overboard, but we wanted to go all out on this project. We designed
-all of the PCBs ourselves and got them fabricated by [Dirty PCB][http://dirtypcbs.com/store/pcbs].
+all of the PCBs ourselves and got them fabricated by [Dirty PCB][diry PCB link].
 
 ![alt text][Ladder 42 block diagram]
 
@@ -86,11 +86,12 @@ Everything for this project worked, except for the SD card reader. I unfortunate
 had to end the project there without resolving this as Senior Design was taking up
 too much of my time.
 
-# About Tyler
-
-Tyler Holmes is currently a Firmware QA Engineer at Apple.
 
 [Broderick Link]: https://www.linkedin.com/in/broderick-carlin-90707879/
+[trinity robot link]: http://www.trinityrobotcontest.org/
+[pixy link]: http://charmedlabs.com/default/pixy-cmucam5/
+[dirty PCB link]: http://dirtypcbs.com/store/pcbs
+
 [Binary Clock picture]: http://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_rev1.JPG "Binary Clock v1 displaying 20:31:08 (8:31 PM)"
 [Binary Clock Link]: http://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
