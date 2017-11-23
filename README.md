@@ -1,16 +1,4 @@
-# Projects
-
-## [Binary Clock][Binary Clock Link]
-
-The Binary Clock project began because I wanted a simple clock that displayed the
-time in binary coded decimal. After looking online and not finding any that I liked,
-I made my own.
-
-![alt text][Binary Clock picture]
-
-More information, documentation, and a high level overview can be found
-[here][Binary Clock Link].
-
+# Current Projects
 
 ## [Harma][Harma Link]
 
@@ -38,6 +26,47 @@ out jitter.
 The above is my first cut at the PCB. So far all sensors are working and I am getting
 accelerometer and magnetometer data out of the orientation IC. This is currently the main
 part I am working on for the overall Harma project. More info can be found [here][Pensel Link].
+
+
+## [Battery Powered Oven Temp Monitor][Oven Temp Link]
+
+![alt text][Oven Temp STM Breadboard]
+
+This project began when my wife and I moved to a new apartment in early 2017 that
+didn't have an oven that displayed the temperature. That's a super easy problem: get a
+thermocouple, some sort of display, and an Arduino and you're done! However, I didn't
+want to deal with plugging this thing in, so to make it tidier and more interesting, it
+is battery powered. This gave me the opportunity to work on a power limited device,
+which I have not done before.
+
+I first prototyped this project with an Arduino and components from Adafruit to
+get a baseline of performance. This baseline then could be improved on with sleeping
+the system, turning off the thermocouple amplifier when not using it, and so on.
+
+![alt text][Oven Temp Arduino Prototype]
+![alt text][Oven Temp Arduino Power Measurement]
+
+After this initial cut, I then moved to using an [STM Nucleo F446 dev board][F446 nucleo link]
+I had laying around to do the final design. This allows me a bit more control over
+power settings as well as having less power hungry components on the board. Unused
+demo peripherals such as the accelerometer were disconnected. I initially used a
+breadboard setup to make sure it all worked. I then soldered it up to be put in
+a permanent enclosure
+
+
+# Other Projects
+
+
+## [Binary Clock][Binary Clock Link]
+
+The Binary Clock project began because I wanted a simple clock that displayed the
+time in binary coded decimal. After looking online and not finding any that I liked,
+I made my own.
+
+![alt text][Binary Clock picture]
+
+More information, documentation, and a high level overview can be found
+[here][Binary Clock Link].
 
 
 ## [Ladder 42][Ladder 42 Link]
@@ -154,6 +183,17 @@ tests, and board files for this project can be found [here][PiBot Project Link] 
 [Pensel Link]: http://www.holmesengineering.com/Harma/Pensel "Pensel Project Page"
 [Pensel Bottom]: https://raw.githubusercontent.com/TDHolmes/Harma/master/Pensel/documentation/pictures/Pensel_1_0_bottom.jpg "The bottom of the 1.0 Pensel PCB"
 [Pensel Top]: https://raw.githubusercontent.com/TDHolmes/Harma/master/Pensel/documentation/pictures/Pensel_1_0_top.jpg "The top of the 1.0 Pensel PCB"
+
+
+[Oven Temp Link]: https://github.com/TDHolmes/OvenTemp.git "Oven Temp Project Page"
+[Oven Temp Arduino Prototype]: https://raw.githubusercontent.com/TDHolmes/OvenTemp/master/docs/pics/arduino_prototype.jpg "Arduino prototype"
+[Oven Temp STM Breadboard]: https://raw.githubusercontent.com/TDHolmes/OvenTemp/master/docs/pics/stm_breadboard_test.jpg "STM solution breadboarded up"
+[Oven Temp Arduino Power Measurement]: https://raw.githubusercontent.com/TDHolmes/OvenTemp/master/docs/power/arduino_powerDownTherm_minBright.png "Power usage of the Arduino prototype"
+[F446 nucleo link]: http://www.st.com/en/evaluation-tools/nucleo-f446re.html "STM Dev Board Used"
+[Oven Temp final assembly]: https://github.com/404.html "Oven Temp Final Assembly"
+[Oven Temp STM wired up]: https://github.com/404.html "Final wiring with STM dev board"
+[Oven Temp Final Power Measurement]: https://github.com/404.html "Power usage of the final design"
+
 
 [Ladder 42 Link]: https://github.com/beeedy/candleBot "Ladder 42 Project Page"
 [Ladder 42 complete]: https://github.com/beeedy/candleBot/blob/master/Images/Pics%20of%20finished%20bot/IMG_0164.png?raw=true "Final design"
