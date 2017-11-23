@@ -1,4 +1,3 @@
-
 # Projects
 
 ## [Binary Clock][Binary Clock Link]
@@ -52,16 +51,16 @@ The goal of the competition is to have the robot find the fire (a candle) and
 extinguish it as fast as possible.
 
 We went about this by getting a [Pixy][pixy link] to do image processing,
-two old Wiimotes to sense IR, two compass MEMS ICs, a color sensor to go on the
+two old Wii-motes to sense IR, two compass MEMS ICs, a color sensor to go on the
 bottom to detect the white circle that is under the candle, and a cell module to
 text the "fire department" to put out the candle.
 A bit overboard, but we wanted to go all out on this project. We designed
-all of the PCBs ourselves and got them fabricated by [Dirty PCB][diry PCB link].
+all of the PCBs ourselves and got them fabricated by [Dirty PCB][dirty PCB link].
 
 ![alt text][Ladder 42 block diagram]
 
 The compasses were dead on arrival because we selected too small of packages and
-did the reflow ourselves. The wiimotes were very easy to interface with (there are
+did the reflow ourselves. The Wii-motes were very easy to interface with (there are
 many guides online to do this) so detecting the candle's position was easy. However,
 the image processing we needed (edge detection) was not supported out of the box by
 the pixy. One of my main parts of the project was to try to get edge detection working
