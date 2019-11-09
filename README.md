@@ -172,7 +172,7 @@ tests, and board files for this project can be found [here][PiBot Project Link] 
 [EHF link]: https://en.wikipedia.org/wiki/Extremely_high_frequency
 
 
-[Binary Clock picture]: http://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_rev1.JPG "Binary Clock v1 displaying 20:31:08 (8:31 PM)"
+[Binary Clock picture]: https://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_front_final.jpeg "final Binary Clock displaying 12:35:47"
 [Binary Clock Link]: http://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
 
