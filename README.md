@@ -166,21 +166,21 @@ tests, and board files for this project can be found [here][PiBot Project Link] 
 
 
 [Broderick Link]: https://www.linkedin.com/in/broderick-carlin-90707879/
-[trinity robot link]: http://www.trinityrobotcontest.org/
-[pixy link]: http://charmedlabs.com/default/pixy-cmucam5/
-[dirty PCB link]: http://dirtypcbs.com/store/pcbs
+[trinity robot link]: https://www.trinityrobotcontest.org/
+[pixy link]: https://charmedlabs.com/default/pixy-cmucam5/
+[dirty PCB link]: https://dirtypcbs.com/store/pcbs
 [EHF link]: https://en.wikipedia.org/wiki/Extremely_high_frequency
 
 
 [Binary Clock picture]: https://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_front_final.jpeg "final Binary Clock displaying 12:35:47"
-[Binary Clock Link]: http://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
+[Binary Clock Link]: https://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
 
-[Harma Link]: http://www.holmesengineering.com/Harma "Harma Project Page"
-[Robot Assisted Surgery]: http://en.wikipedia.org/wiki/Robot-assisted_surgery
+[Harma Link]: https://www.holmesengineering.com/Harma "Harma Project Page"
+[Robot Assisted Surgery]: https://en.wikipedia.org/wiki/Robot-assisted_surgery
 
 
-[Pensel Link]: http://www.holmesengineering.com/Harma/Pensel "Pensel Project Page"
+[Pensel Link]: https://www.holmesengineering.com/Harma/Pensel "Pensel Project Page"
 [Pensel Bottom]: https://raw.githubusercontent.com/TDHolmes/Harma/master/Pensel/documentation/pictures/Pensel_1_0_bottom.jpg "The bottom of the 1.0 Pensel PCB"
 [Pensel Top]: https://raw.githubusercontent.com/TDHolmes/Harma/master/Pensel/documentation/pictures/Pensel_1_0_top.jpg "The top of the 1.0 Pensel PCB"
 
@@ -189,7 +189,7 @@ tests, and board files for this project can be found [here][PiBot Project Link] 
 [Oven Temp Arduino Prototype]: https://raw.githubusercontent.com/TDHolmes/OvenTemp/master/docs/pics/arduino_prototype.jpg "Arduino prototype"
 [Oven Temp STM Breadboard]: https://raw.githubusercontent.com/TDHolmes/OvenTemp/master/docs/pics/stm_breadboard_test.jpg "STM solution breadboarded up"
 [Oven Temp Arduino Power Measurement]: https://raw.githubusercontent.com/TDHolmes/OvenTemp/master/docs/power/arduino_powerDownTherm_minBright.png "Power usage of the Arduino prototype"
-[F446 nucleo link]: http://www.st.com/en/evaluation-tools/nucleo-f446re.html "STM Dev Board Used"
+[F446 nucleo link]: https://www.st.com/en/evaluation-tools/nucleo-f446re.html "STM Dev Board Used"
 [Oven Temp final assembly]: https://github.com/404.html "Oven Temp Final Assembly"
 [Oven Temp STM wired up]: https://github.com/404.html "Final wiring with STM dev board"
 [Oven Temp Final Power Measurement]: https://github.com/404.html "Power usage of the final design"
