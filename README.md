@@ -1,5 +1,13 @@
 # Current Projects
 
+## [Battery Powered Oven Temp Monitor - in Rust!][oven-temp-rs link]
+
+This is the new and improved variant on my original oven temperature monitor, but rewritten in
+embedded rust and much more battery efficient. Doing this project made me want to never write
+embedded C ever again.
+
+![alt text][oven-temp-rs picture]
+
 ## [Harma][Harma Link]
 
 The Harma (meaning Mimic in Swedish) project is a solution to my shaky, over-caffeinated hands.
@@ -175,6 +183,8 @@ tests, and board files for this project can be found [here][PiBot Project Link] 
 [Binary Clock picture]: https://raw.githubusercontent.com/TDHolmes/BinaryClock/master/documents/pictures/BinaryClock_front_final.jpeg "final Binary Clock displaying 12:35:47"
 [Binary Clock Link]: https://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
+[oven-temp-rs link]: https://www.holmesengineering.com/oven-temp-rs "Oven-Temp-rs Project Page"
+[oven-temp-rs picture]: https://github.com/TDHolmes/oven-temp-rs/raw/master/docs/images/oven-temp-off.jpeg "The oven temp monitor in place"
 
 [Harma Link]: https://www.holmesengineering.com/Harma "Harma Project Page"
 [Robot Assisted Surgery]: https://en.wikipedia.org/wiki/Robot-assisted_surgery
