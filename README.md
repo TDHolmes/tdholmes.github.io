@@ -184,7 +184,7 @@ tests, and board files for this project can be found [here][PiBot Project Link] 
 [Binary Clock Link]: https://www.holmesengineering.com/BinaryClock "Binary Clock Project Page"
 
 [oven-temp-rs link]: https://www.holmesengineering.com/oven-temp-rs "Oven-Temp-rs Project Page"
-[oven-temp-rs picture]: https://github.com/TDHolmes/oven-temp-rs/raw/master/docs/images/oven-temp-off.jpeg "The oven temp monitor in place"
+[oven-temp-rs picture]: https://github.com/TDHolmes/oven-temp-rs/raw/main/docs/images/oven-temp-off.jpeg "The oven temp monitor in place"
 
 [Harma Link]: https://www.holmesengineering.com/Harma "Harma Project Page"
 [Robot Assisted Surgery]: https://en.wikipedia.org/wiki/Robot-assisted_surgery
