@@ -1,13 +1,5 @@
 # Current Projects
 
-## [Battery Powered Oven Temp Monitor - in Rust!][oven-temp-rs link]
-
-This is the new and improved variant on my original oven temperature monitor, but rewritten in
-embedded rust and much more battery efficient. Doing this project made me want to never write
-embedded C ever again.
-
-![alt text][oven-temp-rs picture]
-
 ## [Harma][Harma Link]
 
 The Harma (meaning Mimic in Swedish) project is a solution to my shaky, over-caffeinated hands.
@@ -31,10 +23,20 @@ out jitter.
 
 ![alt text][Pensel Top]
 
-The above is my first cut at the PCB. So far all sensors are working and I am getting
-accelerometer and magnetometer data out of the orientation IC. This is currently the main
-part I am working on for the overall Harma project. More info can be found [here][Pensel Link].
+The above is my first cut at the PCB. I was able to bring up all sensors and got
+accelerometer and magnetometer data out of the orientation IC. Unfortunately,
+the board fried after working on it for a while. I am planning on continuing the project
+with some Adafruit breakout boards in Rust. More info can be found [here][Pensel Link].
 
+# Past Projects
+
+## [Battery Powered Oven Temp Monitor - in Rust!][oven-temp-rs link]
+
+This is the new and improved variant on my original oven temperature monitor, but rewritten in
+embedded rust and much more battery efficient. Doing this project made me want to never write
+embedded C ever again.
+
+![alt text][oven-temp-rs picture]
 
 ## [Battery Powered Oven Temp Monitor][Oven Temp Link]
 
@@ -60,9 +62,6 @@ power settings as well as having less power hungry components on the board. Unus
 demo peripherals such as the accelerometer were disconnected. I initially used a
 breadboard setup to make sure it all worked. I then soldered it up to be put in
 a permanent enclosure
-
-
-# Other Projects
 
 
 ## [Binary Clock][Binary Clock Link]
