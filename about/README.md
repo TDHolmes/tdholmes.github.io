@@ -12,4 +12,4 @@ He got his B.S. in Electrical Engineering and B.A. in Physics at the University 
 Email: <tyler@holmesengineering.com> <br/>
 LinkedIn: [linkedin.com/in/tylerdholmes](https://www.linkedin.com/in/tylerdholmes)
 
-[Tyler Picture]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/tyler_courtneywedding.png "Tyler does not have many pictures of himself..."
+[Tyler Picture]: https://raw.githubusercontent.com/TDHolmes/tdholmes.github.io/master/_pictures/tyler_hawaii.jpg "Tyler with his daughter in Hawaii"
