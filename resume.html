@@ -1,1 +1,305 @@
-./_resume_repo/output/resume.html
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      background: #FFFFFF;
+      color: #424242;
+      margin: auto;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 1em;
+      padding-top: 1em;
+
+      font-size: 11pt;
+  }
+
+  /* Title of the resume */
+  h1 {
+      color: #000000;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 24pt;
+  }
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #267CB9;
+      font-size: 16pt;
+      margin-left: -1em;
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+  }
+
+  /* Definitions */
+  dl {
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+  }
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+      margin: 0.25em;
+      margin-top: 0;
+  }
+  dd {
+      margin-top:0;
+      margin-left: 17%;
+      margin-bottom: 0.25em;
+  }
+
+  ul {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+  }
+
+  /* paragraph */
+  p {
+      margin-top:0;
+      margin-bottom:0.25em;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: center;
+      border: #FFFFFF; /* eliminate the quote mark */
+      color: #424242;
+  }
+
+  /* Links */
+  a {
+      text-decoration: underline;
+      color: #267CB9;
+  }
+  a:hover, a:active {
+      color: #1b5a86;
+      text-decoration: none;
+  }
+  a.email {
+      color: #424242;
+  }
+
+  /* Horizontal separators */
+  hr {
+      background-color: #bbbbbb;
+  }
+
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="tyler-holmes">Tyler Holmes</h1>
+<blockquote>
+<p>Firmware engineer specializing in low power sensing architecture</p>
+<p><a href="mailto:tyler@holmesengineering.com" class="email">tyler@holmesengineering.com</a> • +1 (507) 779-4334 • Cupertino, CA</p>
+</blockquote>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2012-2016</dt>
+<dd><p><strong>Electrical Engineering (BS), Physics (BA)</strong> University of St. Thomas, MN</p>
+<p><em>GPA: 3.83 - Focus on Embedded Systems</em></p>
+</dd>
+</dl>
+<hr />
+<h2 id="experience">Experience</h2>
+<p><strong>Senior Firmware Engineer, Apple</strong> (<em>2018-Present</em>)</p>
+<ul>
+<li><p>Touch firmware DRI for the 2nd generation Siri Remote and low power infrastructure across the product, achieving multi-month battery life</p></li>
+<li><p>Touch and display firmware DRI for the HomePod mini, enabling edge-to-edge touch and display while accommodating ambient light sensing through the top cap</p></li>
+<li><p>Took over both the 16” MacBook Pro and Magic Keyboard for iPad touch firmware after original DRI left, solving large power and haptic latency regressions</p></li>
+<li><p>Rearchitected the touch firmware solution on Apple Watch Series 5 across two processors to enable improved water algorithms and debugging</p></li>
+</ul>
+<p><strong>Firmware Quality Engineer, Apple</strong> (<em>2016-2018</em>)</p>
+<ul>
+<li><p>Co-designed a powerful and extensible testing framework now used by nearly all of the QE organization, as well as some developers and cross-functional partners</p></li>
+<li><p>Designed and wrote both automated and manual testing across multiple product categories, such as the Apple Watch, AirPods Max, and HomePod</p></li>
+</ul>
+<hr />
+<h2 id="projects">Projects</h2>
+<dl>
+<dt><a href="https://www.holmesengineering.com/oven-temp-rs/" target="_blank">Oven Monitor</a></dt>
+<dd>A battery-powered oven temperature monitor written embedded rust. Efficient and small, lasting months, and included contributions to <a href="https://github.com/atsamd-rs/atsamd/pulls?q=is%3Apr+author%3ATDHolmes+is%3Amerged" target="_blank">open source</a>.
+</dd>
+<dt><a href="https://www.holmesengineering.com/BinaryClock/" target="_blank">Binary Clock</a></dt>
+<dd>A clock formatted in binary written in less than 4kb of code.
+</dd>
+</dl>
+<hr />
+<h2 id="skills">Skills</h2>
+<dl>
+<dt>Languages</dt>
+<dd>C, C++, Rust, Python, Verilog
+</dd>
+<dt>Dev Tools</dt>
+<dd>git, GitHub, Jenkins, Docker
+</dd>
+<dt>ECAD</dt>
+<dd>Schematic Capture, Layout, Circuit Design
+</dd>
+</dl>
+</body>
+</html>
